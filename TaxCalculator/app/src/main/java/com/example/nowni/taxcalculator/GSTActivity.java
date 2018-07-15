@@ -101,7 +101,7 @@ public class GSTActivity extends AppCompatActivity {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 double enteredAmount = Double.parseDouble(inputAmount.getText().toString());
-                double displayAmount = enteredAmount * tax;
+                double displayAmount = enteredAmount /100 * tax;
                 displayTotal(enteredAmount, displayAmount, tax);
             }
         });
