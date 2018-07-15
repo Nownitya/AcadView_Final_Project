@@ -1,0 +1,20 @@
+<resources>
+    <string name="textSplash">TAX CALCULATOR</string>
+    <string name="app_name">TaxCalculator</string>
+    <string name="btnIncome">Income Tax</string>
+    <string name="btnGST">GST Calculator</string>
+    <string name="btnInAmount">Amount</string>
+    <string name="InputIncome">InputIncome</string>
+    <string name="text_Income">Input Income</string>
+    <string name="AmountBtn">Amount</string>
+    <string name="Enter_Amount">Enter Amount</string>
+    <string-array name="GST_List">
+        <item>Cloth</item>
+        <item>utensils</item>
+        <item>Food</item>
+        <item>Grocery</item>
+        <item>Electonics</item>
+    </string-array>
+
+
+</resources>
